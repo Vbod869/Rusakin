@@ -114,7 +114,7 @@ const rupiah = value => new Intl.NumberFormat("id-ID", {
 }).format(value);
 
 function waUrl(message) {
-  return `https://wa.me/${+639754439186}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${639754439186}?text=${encodeURIComponent(message)}`;
 }
 
 function renderPhones() {
